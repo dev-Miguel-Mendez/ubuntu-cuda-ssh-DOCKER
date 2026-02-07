@@ -1,5 +1,7 @@
 
 #$ This is my own base image, it just starts an ssh server and it's the base ubuntu:24.04 image
+#$ This doesn't necessarily have to be auto-pulled from the registry here. You can pull the image beforehand. However, the first time you build this image with auto-pulling, it will save it to your local Docker images.
+
 FROM ubuntu-24-simple-ssh
 
 
